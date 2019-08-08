@@ -8,7 +8,7 @@ The structure of the repository is:
 
 * [./raw/](raw/) contains the raw data of running Sereum against transactions
     * `reentrancy_from_X_until_Y.csv.xz` - a list of all transactions flagged
-       as possible re-entrancy attack in the block range $[X, Y]$.
+       as possible re-entrancy attack in the block range [X, Y] (including both endpoints).
     * `missing_blocks_from_X_until_Y.txt` - a list of blocks that we were not
       able to analyze (e.g., because replaying the block took too long)
 * ...
