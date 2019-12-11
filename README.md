@@ -1,8 +1,8 @@
 # Sereum Evaluation Data
 
-This repository contains raw and processed data of the evaluation of Sereum v2.
-This includes basic unconditional reentrancy detection and covering more
-(nearly all) blocks of the ethereum mainnet.
+The data in this repository was produced during a research collaboration of [NEC Labs Europe](http://www.neclab.eu) and [University of Duisburg-Essen](https://www.syssec.wiwi.uni-due.de/), which resulted in the publication of the NDSS19  paper ["Sereum: Protecting Existing Smart Contracts Against Re-Entrancy Attacks"](https://arxiv.org/abs/1812.05934). 
+This repository contains raw and processed data of an extended evaluation of Sereum.
+This includes basic unconditional reentrancy detection and covering more blocks of the ethereum mainnet (currently up to block 8 million).
 
 The structure of the repository is:
 
