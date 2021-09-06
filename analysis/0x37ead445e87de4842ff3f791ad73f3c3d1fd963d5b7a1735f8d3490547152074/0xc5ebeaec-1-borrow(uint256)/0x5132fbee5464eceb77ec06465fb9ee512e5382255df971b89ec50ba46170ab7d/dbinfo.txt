@@ -1,0 +1,17 @@
+blocknum = 7999446
+txhash = 0x5132fbee5464eceb77ec06465fb9ee512e5382255df971b89ec50ba46170ab7d
+gas = 4412767
+caller = 0xcf90d6d26b8372f98a020bf187b30dc8fe8143ae
+contract = 0x6c8c6b02e7b2be14d4fa6022dfd6d75921d90e4e
+codehash = 0x37ead445e87de4842ff3f791ad73f3c3d1fd963d5b7a1735f8d3490547152074
+calldata = c5ebeaec000000000000000000000000000000000000000000000000000eae1154772e11
+functionsig = 3320572652
+returnvalue = 
+calldepth = 5
+externalcalldepth = 2
+pc = 16130
+storageaddress = 0x3a46a30d16a2d4ff928f6c2abe2e2d33a624710cff956f87f8fbe533b44690d0
+writelockdepth = 4
+reason = JUMPI
+ts = 2019-08-10 17:35:15.134628
+

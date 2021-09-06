@@ -1,0 +1,17 @@
+blocknum = 4108700
+txhash = 0xd158e796f55065301ee855a9ead0f5b4a60ba6a64e62a664789bbadd8141a114
+gas = 447388
+caller = 0x82f1be1e1de456c101f5d7eae87bf69da216c3cb
+contract = 0x26b8af052895080148dabbc1007b3045f023916e
+codehash = 0x228e8b08bc912bd5669eab1aa027726bab5849b3d121adfa09a53a4edc4d0249
+calldata = 6d4ce63c
+functionsig = 1833756220
+returnvalue = 
+calldepth = 20
+externalcalldepth = 19
+pc = 511
+storageaddress = 0x60ddae36eaad40a6efcac6d5dea6d3557ae5d268d1e6572dbab58c35e0d00f20
+writelockdepth = 21
+reason = CALL_VALUE
+ts = None
+

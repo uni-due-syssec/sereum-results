@@ -1,0 +1,1 @@
+"re-entrancy attack detected (contract: 0xDF18880A02C7F3EB4f40FdF515fce31C1CB7EF66, pc: 0x137e, sstoreLoc: 0x77e179ff1ff78d2114a94043f4971f5cb4ae2f9f1e9708a4c31f152c35b6d6cb, callstackdepth: 1, externalCallDepth: 0, sstoreLockedTo: 2, caller: 0x4AD8d0fAB75856Ba105317bD64aEACCE1A96E982, reason: JUMPI)"

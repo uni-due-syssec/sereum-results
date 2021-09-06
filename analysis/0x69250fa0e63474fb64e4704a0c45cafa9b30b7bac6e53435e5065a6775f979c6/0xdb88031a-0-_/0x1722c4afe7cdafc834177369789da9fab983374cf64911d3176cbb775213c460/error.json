@@ -1,0 +1,1 @@
+"re-entrancy attack detected (contract: 0xBF78025535C98f4c605FBe9EAf672999aBf19Dc1, pc: 0x282, sstoreLoc: 0xacf4dd87a64b3948df761c06fb3511e931d966006437913b6af940690bdf46d9, callstackdepth: 4, externalCallDepth: 3, sstoreLockedTo: 5, caller: 0x89e315a597dFcE24b15197A450DfF66db62dd3cb, reason: CALL_VALUE)"

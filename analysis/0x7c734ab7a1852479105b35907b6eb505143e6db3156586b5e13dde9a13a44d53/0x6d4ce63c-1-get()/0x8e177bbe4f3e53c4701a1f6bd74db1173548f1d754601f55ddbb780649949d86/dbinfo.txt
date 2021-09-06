@@ -1,0 +1,17 @@
+blocknum = 7208795
+txhash = 0x8e177bbe4f3e53c4701a1f6bd74db1173548f1d754601f55ddbb780649949d86
+gas = 334182
+caller = 0xb30a3b21bf58748108b60d08b61a2ffcc0fe2faa
+contract = 0x0eb68f34efa0086e4136bca51fc4d0696580643e
+codehash = 0x7c734ab7a1852479105b35907b6eb505143e6db3156586b5e13dde9a13a44d53
+calldata = 6d4ce63c
+functionsig = 1833756220
+returnvalue = 
+calldepth = 3
+externalcalldepth = 2
+pc = 1018
+storageaddress = 0xaeb64daaa6034565268b620c7118f553ed0f12a9e92f874ebf684b01d42d0f4c
+writelockdepth = 4
+reason = CALL_VALUE
+ts = 2019-05-08 21:59:20.012826
+

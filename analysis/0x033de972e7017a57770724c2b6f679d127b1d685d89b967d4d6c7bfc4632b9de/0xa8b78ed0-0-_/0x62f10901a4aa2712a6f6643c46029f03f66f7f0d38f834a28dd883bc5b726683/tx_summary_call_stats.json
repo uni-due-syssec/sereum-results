@@ -1,0 +1,1 @@
+{"0xd06441bdb863037b351ca9bbe573ef1d57f047bd": {"0x634a47ad2d31990a651544fdd4f540e735b24ae1": {"ether": 0, "functions": {"b808b43d": {"count": 1, "sig_lookup": [], "ether": 0}}}}, "0x634a47ad2d31990a651544fdd4f540e735b24ae1": {"0xd06441bdb863037b351ca9bbe573ef1d57f047bd": {"ether": 0, "functions": {"": {"count": 1, "sig_lookup": ["fallback"], "ether": 0}}}}}

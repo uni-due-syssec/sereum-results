@@ -1,0 +1,18 @@
+{
+  "blocknum": 1743596,
+  "txhash": "0x737599144d090bb3057d5d73f13e82e9362d6efbba9f8490045977df39f8abdb",
+  "gas": 3140000,
+  "caller": "0x308115e30d6faa1a707a8461acf9bb41efb23109",
+  "contract": "0xf01fe1a15673a5209c94121c45e2121fe2903416",
+  "codehash": "0xd39b80a4f0a184363d79e89bc4d113538d91679321d35c2430ae8a2912b98340",
+  "calldata": "5fd8c710",
+  "functionsig": 1608042256,
+  "returnvalue": "",
+  "calldepth": 10,
+  "externalcalldepth": 9,
+  "pc": 265,
+  "storageaddress": "0x151794cf405de3c8813ae8ce3f2ae7ee2416be2e87d34a50566f05d93dca5585",
+  "writelockdepth": 11,
+  "reason": "CALL_VALUE",
+  "ts": null
+}

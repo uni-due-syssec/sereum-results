@@ -1,0 +1,18 @@
+{
+  "blocknum": 6249436,
+  "txhash": "0x6f7d2364f8bd73e558a54ea15b47a7fd42de9501169421d0d931671439a08be4",
+  "gas": 291192,
+  "caller": "0x2501d837439a740252be261c19231b5281ed96f6",
+  "contract": "0x1a0f2ab46ec630f9fd638029027b552afa64b94c",
+  "codehash": "0xbd76ae92ab5309a31b8872aff0cd3f2db168d9f5c1a0a3c1f7b7148ad679d47b",
+  "calldata": "a9059cbb000000000000000000000000d48ec4bd0226c1decf0ea618ed35a76e8e272e8600000000000000000000000000000000000000000000ad453361b66c698efcd8",
+  "functionsig": 2835717307,
+  "returnvalue": "",
+  "calldepth": 1,
+  "externalcalldepth": 0,
+  "pc": 12157,
+  "storageaddress": "0xfdc7b16558e053a2830b4c5f5918b25b8683e0d403b474decedb13f30f68d182",
+  "writelockdepth": 3,
+  "reason": "JUMPI",
+  "ts": "2019-05-02T19:02:01.852741"
+}

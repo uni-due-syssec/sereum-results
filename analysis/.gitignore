@@ -1,0 +1,4 @@
+*.hex
+*.evm
+transactions.csv
+trace.json

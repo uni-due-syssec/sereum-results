@@ -1,0 +1,91 @@
+---
+0xe4c94d45f7aef7018a5d66f44af780ec6023378e:
+    name: CCRB
+    attack: "No"
+0xd73be539d6b2076bab83ca6ba62dfe189abc6bbe:
+    name: BlockchainCuties
+    attack: "No"
+0x0fc53f7c2659a708f46d0c4336eb8c1e0f551307:
+    name: Bingo3D
+    attack: Unlikely
+0xbb9bc244d798123fde783fcc1c72d3bb8c189413:
+    name: TheDAO
+    attack: "Yes"
+0x304a554a310c7e546dfe434669c62820b7d83490:
+    name: "TheDarkDAO"
+    attack: "Yes"
+0x06a6a7af298129e3a2ab396c9c06f91d3c54aba8:
+    name: 0xUniverse(PLANET)
+    attack: Unlikely
+0xdf18880a02c7f3eb4f40fdf515fce31c1cb7ef66:
+    name: gibmireinbierBank
+    attack: "No"
+0xd654bdd32fc99471455e86c2e7f7d7b6437e9179:
+    name: DSEthToken
+    attack: "Yes"
+0xbf78025535c98f4c605fbe9eaf672999abf19dc1:
+    name: N/A
+    attack: "Yes"
+0xb7c5c5aa4d42967efe906e1b66cb8df9cebf04f7:
+    name: keepMyEther
+    attack: "Yes"
+0xf01fe1a15673a5209c94121c45e2121fe2903416:
+    name: N/A
+    attack: "Yes"
+0x26b8af052895080148dabbc1007b3045f023916e:
+    name: N/A
+    attack: "Yes"
+0x8e597bc2e708f83ddbb74355f924397676877cde:
+    name: "proxyEZC (EZC)"
+    attack: "No"
+0xf91546835f756DA0c10cFa0CDA95b15577b84aA7:
+    name: "Spankchain(PaymentChannel)"
+    attack: "Yes"
+0x95dAaaB98046846bF4B2853e23cba236fa394A31:
+    name: "EtheremonToken(EMONT)"
+    attack: "No"
+0x0D5Ef019Ca4C5cc413ee892CED89D7107c5F424d:
+    name: "IexecHub"
+    attack: "No"
+0x0eB68F34eFA0086E4136bcA51FC4D0696580643e:
+    name: "BetingHouse"
+    attack: "Yes"
+0x5FBC6Aeb4a868B0f930fbe34581188b7bFF5aB62:
+    name: "CryptoFoxes"
+    attack: "Unlikely"
+0xeb285c5f92488B3d86Aa1B19880d3749e7424d1A:
+    name: "KyberVolume_OlympusIndex"
+    attack: "?"
+0x238f99a33f6a1c78187b5b0d645cb4606aebf9e3:
+    name: "proxyCC (CC)"
+    attack: "No"
+0x888b2B2c99d8e22087164B317af0b175b9A47551:
+    name: "SUSD"
+    attack: "No"
+0x59752433dbe28f5aa59b479958689d353b3dee08:
+    name: "N/A"
+    attack: "Yes"
+0x4A8d3a662e0Fd6A8BD39eD0F91E4C1b729c81a38:
+    name: "HODLWallet"
+    attack: "Yes"
+0xaae1f51cf3339f18b6d3f3bdc75a5facd744b0b8:
+    name: "DEP_BANK"
+    attack: "Yes"
+0xB4c05E6e4cdB07c15095300D96a5735046eEF999:
+    name: "PrivateBank (Honeypot)"
+    attack: "Yes"
+0x23A91059Fdc9579A9Fbd0edc5F2Ea0BFdb70Deb4:
+    name: "PrivateBank (Honeypot)"
+    attack: "Yes"
+0xbabfe0ae175b847543724c386700065137d30e3b:
+    name: "PrivateBank (Honeypot)"
+    attack: "Yes"
+0x463f235748bc7862deaa04d85b4b16ac8fafef39:
+    name: "PrivateBank (Honeypot)"
+    attack: "Yes"
+0xb93430ce38ac4a6bb47fb1fc085ea669353fd89e:
+    name: "PrivateBank (Honeypot)"
+    attack: "Yes"
+0xcead721ef5b11f1a7b530171aab69b16c5e66b6e:
+    name: "WALLET"
+    attack: "Yes"

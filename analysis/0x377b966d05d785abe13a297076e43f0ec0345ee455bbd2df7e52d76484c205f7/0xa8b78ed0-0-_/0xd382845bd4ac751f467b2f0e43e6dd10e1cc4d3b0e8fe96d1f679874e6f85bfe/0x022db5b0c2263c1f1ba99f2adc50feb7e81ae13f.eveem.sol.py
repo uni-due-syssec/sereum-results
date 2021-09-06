@@ -1,0 +1,10 @@
+# contract source code retrieved from eveem.org
+# retrieved on 2019-12-03
+
+#  addr = 0x022dB5B0C2263C1f1bA99f2aDC50FEb7e81ae13f 
+#  network = mainnet 
+#  ver = 26 Apr 2019 
+#  problems = {'_fallback()': '_fallback()'} 
+
+# storage definitions
+def storage:

@@ -1,0 +1,1 @@
+{"0x0e368aa8e38ca2080c82c0ddb06b7d613e871c7d": {"0x0e368aa8e38ca2080c82c0ddb06b7d613e871c7d": {"ether": 1, "functions": {"": {"count": 1, "sig_lookup": ["fallback"], "ether": 1}}}}, "0x00000000002b13cccec913420a21e4d11b2dcd3c": {"0x0e368aa8e38ca2080c82c0ddb06b7d613e871c7d": {"ether": 0, "functions": {"": {"count": 1, "sig_lookup": ["fallback"], "ether": 0}}}}}

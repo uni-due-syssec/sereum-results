@@ -1,0 +1,41 @@
+# contract source code retrieved from eveem.org
+# retrieved on 2019-12-03
+
+#  addr = 0xb8247cd36944b30dBd17e51782d0bE68A60Fd0E0 
+#  network = mainnet 
+#  ver = 26 Apr 2019 
+#  problems = {} 
+
+# storage definitions
+def storage:
+    # storage address 0
+    implementationAddress # mask: a s
+# hash = 0x5c60da1b
+# getter = ['storage', 160, 0, 0]
+# const = None
+# payable = True
+def implementation() payable: 
+  return implementationAddress
+
+
+# hash = 0x9422866c
+# getter = None
+# const = None
+# payable = True
+def unknown9422866c(addr _param1) payable: 
+  require calldata.size - 4 >= 32
+  create contract with 0 wei
+                  code: 0xfe608060405234801561001057600080fd5b5060405160408061020f8339810180604052604081101561003057600080fd5b508051602090910151600160a060020a038116158015906100595750600160a060020a03821615155b6100c457604080517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152601860248201527f416464726573732073686f756c64206e6f742062652030780000000000000000604482015290519081900360640190fd5b60018054600160a060020a03938416600160a060020a03199182161790915560008054929093169116179055610110806100ff6000396000f3fe6080604052600436106038577c01000000000000000000000000000000000000000000000000000000006000350463b84dfbd281146040575b603e607b565b005b348015604b57600080fd5b5060526089565b6040805173ffffffffffffffffffffffffffffffffffffffff9092168252519081900360200190f35b6087608360a5565b60c1565b565b60015473ffffffffffffffffffffffffffffffffffffffff1681565b60005473ffffffffffffffffffffffffffffffffffffffff1690565b3660008037600080366000845af43d6000803e80801560df573d6000f35b3d6000fdfea165627a7a723058203cb5430eba1d40a04d05c2f7f9e4c9231fd0c79637bd42dfa0b97b4be718cfda00, addr(_param1), implementationAddress
+  if not create.new_address:
+      revert with ext_call.return_data[0 len return_data.size]
+  return addr(create.new_address)
+
+
+# hash = _fallback()
+# getter = None
+# const = None
+# payable = True
+def _fallback() payable: # default function
+  revert
+
+

@@ -1,0 +1,17 @@
+blocknum = 3694969
+txhash = 0x68df8d40b3638c31b735cc036781a311652d78303d455e7347e13ec7f24414f1
+gas = 500000
+caller = 0xcfc448d29f342273feb6653d2769ddb1a530cbb1
+contract = 0xbf78025535c98f4c605fbe9eaf672999abf19dc1
+codehash = 0x69250fa0e63474fb64e4704a0c45cafa9b30b7bac6e53435e5065a6775f979c6
+calldata = db88031a
+functionsig = 3683123994
+returnvalue = 
+calldepth = 22
+externalcalldepth = 21
+pc = 642
+storageaddress = 0xa79f93b1729f095a0149e84bee0ab39e5c5a7752224726b102bd30bac9cd365b
+writelockdepth = 25
+reason = CALL_VALUE
+ts = None
+

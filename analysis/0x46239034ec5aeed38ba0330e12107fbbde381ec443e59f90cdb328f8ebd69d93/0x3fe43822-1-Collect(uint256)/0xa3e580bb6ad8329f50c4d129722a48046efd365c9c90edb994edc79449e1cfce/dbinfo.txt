@@ -1,0 +1,17 @@
+blocknum = 8783595
+txhash = 0xa3e580bb6ad8329f50c4d129722a48046efd365c9c90edb994edc79449e1cfce
+gas = 8000000
+caller = 0x6f23ffdbaa5a1bc353b7261852a89f2a438d486a
+contract = 0xac629878277bf6a2fc46857eac4d4dd17bfa330f
+codehash = 0x46239034ec5aeed38ba0330e12107fbbde381ec443e59f90cdb328f8ebd69d93
+calldata = 3fe4382200000000000000000000000000000000000000000000000000038d7ea4c68000
+functionsig = 1071921186
+returnvalue = 
+calldepth = 2
+externalcalldepth = 1
+pc = 578
+storageaddress = 0x78097fc1f298ac0add5092feb8ab8ef2a3dd47e75623bd3627e5ce29f8d048af
+writelockdepth = 3
+reason = JUMPI
+ts = 2020-03-27 03:46:44.051174
+

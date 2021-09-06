@@ -1,0 +1,37 @@
+--------------------------------------------------------------------------------
+TX Info:
+from : 0x0676c407f8ea1716b9d27231ba6505f71cd3f7ab
+to : 0x89e315a597dfce24b15197a450dff66db62dd3cb
+value : 0x0
+input : 0x40c826710000000000000000000000000000000000000000000000000011c290633b7000
+--------------------------------------------------------------------------------
+call to [] (0x40c82671)
+calldata = 40c826710000000000000000000000000000000000000000000000000011c290633b7000
+--------------------------------------------------------------------------------
+SLOAD(addr=0000000000000000000000000000000000000000000000000000000000000000) => value=000000000000000000000000bf78025535c98f4c605fbe9eaf672999abf19dc1                     | 0x89e315a597dfce24b15197a450dff66db62dd3cb @ 0x17a == 378
+CALL(0xbf78025535c98f4c605fbe9eaf672999abf19dc1, ether=4999000000000000, gas=143040, input=mem[96:96], ...)                                                                | 0x89e315a597dfce24b15197a450dff66db62dd3cb @ 0x1c5 == 453
+    SLOAD(addr=acf4dd87a64b3948df761c06fb3511e931d966006437913b6af940690bdf46d9) => value=0000000000000000000000000000000000000000000000000000000000000000                 | 0xbf78025535c98f4c605fbe9eaf672999abf19dc1 @ 0xa9 == 169
+    SSTORE(addr=acf4dd87a64b3948df761c06fb3511e931d966006437913b6af940690bdf46d9, value=0000000000000000000000000000000000000000000000000011c290633b7000)                  | 0xbf78025535c98f4c605fbe9eaf672999abf19dc1 @ 0xb0 == 176
+    STOP                                                                                                                                                                   | 0xbf78025535c98f4c605fbe9eaf672999abf19dc1 @ 0xb5 == 181
+SLOAD(addr=0000000000000000000000000000000000000000000000000000000000000000) => value=000000000000000000000000bf78025535c98f4c605fbe9eaf672999abf19dc1                     | 0x89e315a597dfce24b15197a450dff66db62dd3cb @ 0x1d0 == 464
+CALL(0xbf78025535c98f4c605fbe9eaf672999abf19dc1 (@ 0xdb88031a), ether=0, gas=148205, input=mem[96:100]{db88031a}, ...)                                                     | 0x89e315a597dfce24b15197a450dff66db62dd3cb @ 0x255 == 597
+    SLOAD(addr=acf4dd87a64b3948df761c06fb3511e931d966006437913b6af940690bdf46d9) => value=0000000000000000000000000000000000000000000000000011c290633b7000                 | 0xbf78025535c98f4c605fbe9eaf672999abf19dc1 @ 0x222 == 546
+    CALL(0x89e315a597dfce24b15197a450dff66db62dd3cb, ether=4999000000000000, gas=110659, input=mem[96:96], ...)                                                            | 0xbf78025535c98f4c605fbe9eaf672999abf19dc1 @ 0x239 == 569
+        SLOAD(addr=0000000000000000000000000000000000000000000000000000000000000000) => value=000000000000000000000000bf78025535c98f4c605fbe9eaf672999abf19dc1             | 0x89e315a597dfce24b15197a450dff66db62dd3cb @ 0x6a == 106
+        CALL(0xbf78025535c98f4c605fbe9eaf672999abf19dc1 (@ 0xdb88031a), ether=0, gas=111159, input=mem[96:100]{db88031a}, ...)                                             | 0x89e315a597dfce24b15197a450dff66db62dd3cb @ 0xef == 239
+            SLOAD(addr=acf4dd87a64b3948df761c06fb3511e931d966006437913b6af940690bdf46d9) => value=0000000000000000000000000000000000000000000000000011c290633b7000         | 0xbf78025535c98f4c605fbe9eaf672999abf19dc1 @ 0x222 == 546
+            CALL(0x89e315a597dfce24b15197a450dff66db62dd3cb, ether=4999000000000000, gas=74192, input=mem[96:96], ...)                                                     | 0xbf78025535c98f4c605fbe9eaf672999abf19dc1 @ 0x239 == 569
+                SLOAD(addr=0000000000000000000000000000000000000000000000000000000000000000) => value=000000000000000000000000bf78025535c98f4c605fbe9eaf672999abf19dc1     | 0x89e315a597dfce24b15197a450dff66db62dd3cb @ 0x6a == 106
+                CALL(0xbf78025535c98f4c605fbe9eaf672999abf19dc1 (@ 0xdb88031a), ether=0, gas=74692, input=mem[96:100]{db88031a}, ...)                                      | 0x89e315a597dfce24b15197a450dff66db62dd3cb @ 0xef == 239
+                    SLOAD(addr=acf4dd87a64b3948df761c06fb3511e931d966006437913b6af940690bdf46d9) => value=0000000000000000000000000000000000000000000000000011c290633b7000 | 0xbf78025535c98f4c605fbe9eaf672999abf19dc1 @ 0x222 == 546
+                    CALL(0x89e315a597dfce24b15197a450dff66db62dd3cb, ether=4999000000000000, gas=38294, input=mem[96:96], ...)                                             | 0xbf78025535c98f4c605fbe9eaf672999abf19dc1 @ 0x239 == 569
+                    SWAP3                                                                                                                                                  | 0xbf78025535c98f4c605fbe9eaf672999abf19dc1 @ 0x23a == 570
+                     |-> WRITELOCK to ≤5:CALL_VALUE storage acf4dd87a64b3948df761c06fb3511e931d966006437913b6af940690bdf46d9 contract 0xbf78025535c98f4c605fbe9eaf672999abf19dc1
+                    SSTORE(addr=acf4dd87a64b3948df761c06fb3511e931d966006437913b6af940690bdf46d9, value=0000000000000000000000000000000000000000000000000000000000000000)  | 0xbf78025535c98f4c605fbe9eaf672999abf19dc1 @ 0x282 == 642
+                    STOP                                                                                                                                                   | 0xbf78025535c98f4c605fbe9eaf672999abf19dc1 @ 0x189 == 393
+                STOP                                                                                                                                                       | 0x89e315a597dfce24b15197a450dff66db62dd3cb @ 0xfe == 254
+            SSTORE(addr=acf4dd87a64b3948df761c06fb3511e931d966006437913b6af940690bdf46d9, value=0000000000000000000000000000000000000000000000000000000000000000)          | 0xbf78025535c98f4c605fbe9eaf672999abf19dc1 @ 0x282 == 642
+--------------------------------------------------------------------------------
+
+reported error:
+re-entrancy attack detected (contract: 0xBF78025535C98f4c605FBe9EAf672999aBf19Dc1, pc: 0x282, sstoreLoc: 0xacf4dd87a64b3948df761c06fb3511e931d966006437913b6af940690bdf46d9, callstackdepth: 4, externalCallDepth: 3, sstoreLockedTo: 5, caller: 0x89e315a597dFcE24b15197A450DfF66db62dd3cb, reason: CALL_VALUE)

@@ -1,0 +1,99 @@
+--------------------------------------------------------------------------------
+TX Info:
+from : 0x2b122ead009e73de6d76eae0bcc5d9cc52e67f08
+to : 0xdefbe144c325d333e09a0db14fcce247aff90ce4
+value : 0xde0b6b3a7640000
+input : 0x8a7cf7f5
+--------------------------------------------------------------------------------
+call to [] (0x8a7cf7f5)
+calldata = 8a7cf7f5
+--------------------------------------------------------------------------------
+SLOAD(addr=0000000000000000000000000000000000000000000000000000000000000001) => value=000000000000000000000000463f235748bc7862deaa04d85b4b16ac8fafef39                 | 0xdefbe144c325d333e09a0db14fcce247aff90ce4 @ 0x5bb == 1467
+SSTORE(addr=0000000000000000000000000000000000000000000000000000000000000001, value=000000000000000000000000463f235748bc7862deaa04d85b4b16ac8fafef39)                  | 0xdefbe144c325d333e09a0db14fcce247aff90ce4 @ 0x5c9 == 1481
+SLOAD(addr=0000000000000000000000000000000000000000000000000000000000000001) => value=000000000000000000000000463f235748bc7862deaa04d85b4b16ac8fafef39                 | 0xdefbe144c325d333e09a0db14fcce247aff90ce4 @ 0x5d0 == 1488
+CALL(0x463f235748bc7862deaa04d85b4b16ac8fafef39 (@ Deposit()), ether=1000000000000000000, gas=694233, input=mem[96:100]{ed21248c}, ...)                                | 0xdefbe144c325d333e09a0db14fcce247aff90ce4 @ 0x6a2 == 1698
+    SLOAD(addr=0000000000000000000000000000000000000000000000000000000000000001) => value=0000000000000000000000000000000000000000000000000de0b6b3a7640000             | 0x463f235748bc7862deaa04d85b4b16ac8fafef39 @ 0x310 == 784
+    JUMPI                                                                                                                                                              | 0x463f235748bc7862deaa04d85b4b16ac8fafef39 @ 0x318 == 792
+     |-> WRITELOCK to ≤1:JUMPI storage 0000000000000000000000000000000000000000000000000000000000000001 contract 0x463f235748bc7862deaa04d85b4b16ac8fafef39
+    SLOAD(addr=124b5edc8b90eb7fb54c77ed659199cede9c439ec76955bb8f349297204f44bf) => value=0000000000000000000000000000000000000000000000000000000000000000             | 0x463f235748bc7862deaa04d85b4b16ac8fafef39 @ 0x35c == 860
+    SSTORE(addr=124b5edc8b90eb7fb54c77ed659199cede9c439ec76955bb8f349297204f44bf, value=0000000000000000000000000000000000000000000000000de0b6b3a7640000)              | 0x463f235748bc7862deaa04d85b4b16ac8fafef39 @ 0x363 == 867
+    SLOAD(addr=0000000000000000000000000000000000000000000000000000000000000002) => value=000000000000000000000000dbda6655f1da6a4cf9513e02a112051d0152fbe7             | 0x463f235748bc7862deaa04d85b4b16ac8fafef39 @ 0x36a == 874
+    CALL(0xdbda6655f1da6a4cf9513e02a112051d0152fbe7 (@ AddMessage(address,uint256,string))
+     | ether=0
+     | gas=673934
+     | input=mem[96:260]{4c2f04a4000000000000000000000000defbe144c325d333e09a0db14fcce247
+     | aff90ce40000000000000000000000000000000000000000000000000de0b6b3
+     | a764000000000000000000000000000000000000000000000000000000000000
+     | 0000006000000000000000000000000000000000000000000000000000000000
+     | 000000074465706f736974000000000000000000000000000000000000000000
+     | 00000000}
+     | ...)                                                                                                                                                        | 0x463f235748bc7862deaa04d85b4b16ac8fafef39 @ 0x467 == 1127
+        SLOAD(addr=aad097d5f115aab9d2776c7f2ac578f3742aa202bf54701ade461157441d1f29) => value=0000000000000000000000000000000000000000000000000000000000000001         | 0xdefbe144c325d333e09a0db14fcce247aff90ce4 @ 0x5de == 1502
+        STOP                                                                                                                                                           | 0xdefbe144c325d333e09a0db14fcce247aff90ce4 @ 0x1d2 == 466
+    ISZERO                                                                                                                                                             | 0x463f235748bc7862deaa04d85b4b16ac8fafef39 @ 0x468 == 1128
+     |-> WRITELOCK to ≤2:JUMPI storage aad097d5f115aab9d2776c7f2ac578f3742aa202bf54701ade461157441d1f29 contract 0xdbda6655f1da6a4cf9513e02a112051d0152fbe7
+    STOP                                                                                                                                                               | 0x463f235748bc7862deaa04d85b4b16ac8fafef39 @ 0xe2 == 226
+SLOAD(addr=0000000000000000000000000000000000000000000000000000000000000001) => value=000000000000000000000000463f235748bc7862deaa04d85b4b16ac8fafef39                 | 0xdefbe144c325d333e09a0db14fcce247aff90ce4 @ 0x6b3 == 1715
+SSTORE(addr=0000000000000000000000000000000000000000000000000000000000000001, value=000000000000000000000001463f235748bc7862deaa04d85b4b16ac8fafef39)                  | 0xdefbe144c325d333e09a0db14fcce247aff90ce4 @ 0x6c1 == 1729
+SLOAD(addr=0000000000000000000000000000000000000000000000000000000000000001) => value=000000000000000000000001463f235748bc7862deaa04d85b4b16ac8fafef39                 | 0xdefbe144c325d333e09a0db14fcce247aff90ce4 @ 0x6c8 == 1736
+CALL(0x463f235748bc7862deaa04d85b4b16ac8fafef39 (@ CashOut(uint256))
+ | ether=0
+ | gas=666649
+ | input=mem[96:132]{9ffa07110000000000000000000000000000000000000000000000000de0b6b3
+ | a7640000}
+ | ...)                                                                                                                                                                | 0xdefbe144c325d333e09a0db14fcce247aff90ce4 @ 0x7ae == 1966
+    SLOAD(addr=124b5edc8b90eb7fb54c77ed659199cede9c439ec76955bb8f349297204f44bf) => value=0000000000000000000000000000000000000000000000000de0b6b3a7640000             | 0x463f235748bc7862deaa04d85b4b16ac8fafef39 @ 0x128 == 296
+    JUMPI                                                                                                                                                              | 0x463f235748bc7862deaa04d85b4b16ac8fafef39 @ 0x130 == 304
+     |-> WRITELOCK 
+     | to ≤1:JUMPI storage 0000000000000000000000000000000000000000000000000000000000000001 contract 0x463f235748bc7862deaa04d85b4b16ac8fafef39
+     | to ≤1:JUMPI storage 124b5edc8b90eb7fb54c77ed659199cede9c439ec76955bb8f349297204f44bf contract 0x463f235748bc7862deaa04d85b4b16ac8fafef39
+     | to ≤2:JUMPI storage aad097d5f115aab9d2776c7f2ac578f3742aa202bf54701ade461157441d1f29 contract 0xdbda6655f1da6a4cf9513e02a112051d0152fbe7
+    CALL(0xdefbe144c325d333e09a0db14fcce247aff90ce4, ether=1000000000000000000, gas=631398, input=mem[96:96], ...)                                                     | 0x463f235748bc7862deaa04d85b4b16ac8fafef39 @ 0x15c == 348
+        SLOAD(addr=0000000000000000000000000000000000000000000000000000000000000001) => value=000000000000000000000001463f235748bc7862deaa04d85b4b16ac8fafef39         | 0xdefbe144c325d333e09a0db14fcce247aff90ce4 @ 0xa3 == 163
+        SLOAD(addr=0000000000000000000000000000000000000000000000000000000000000001) => value=000000000000000000000001463f235748bc7862deaa04d85b4b16ac8fafef39         | 0xdefbe144c325d333e09a0db14fcce247aff90ce4 @ 0xc1 == 193
+        SSTORE(addr=0000000000000000000000000000000000000000000000000000000000000001, value=000000000000000000000000463f235748bc7862deaa04d85b4b16ac8fafef39)          | 0xdefbe144c325d333e09a0db14fcce247aff90ce4 @ 0xcf == 207
+        SLOAD(addr=0000000000000000000000000000000000000000000000000000000000000001) => value=000000000000000000000000463f235748bc7862deaa04d85b4b16ac8fafef39         | 0xdefbe144c325d333e09a0db14fcce247aff90ce4 @ 0xd6 == 214
+        CALL(0x463f235748bc7862deaa04d85b4b16ac8fafef39 (@ CashOut(uint256))
+         | ether=0
+         | gas=601857
+         | input=mem[96:132]{9ffa071100000000000000000000000000000000000000000000000000000000
+         | 00000001}
+         | ...)                                                                                                                                                | 0xdefbe144c325d333e09a0db14fcce247aff90ce4 @ 0x1ae == 430
+            SLOAD(addr=124b5edc8b90eb7fb54c77ed659199cede9c439ec76955bb8f349297204f44bf) => value=0000000000000000000000000000000000000000000000000de0b6b3a7640000     | 0x463f235748bc7862deaa04d85b4b16ac8fafef39 @ 0x128 == 296
+            CALL(0xdefbe144c325d333e09a0db14fcce247aff90ce4, ether=1, gas=566606, input=mem[96:96], ...)                                                               | 0x463f235748bc7862deaa04d85b4b16ac8fafef39 @ 0x15c == 348
+                SLOAD(addr=0000000000000000000000000000000000000000000000000000000000000001) => value=000000000000000000000000463f235748bc7862deaa04d85b4b16ac8fafef39 | 0xdbda6655f1da6a4cf9513e02a112051d0152fbe7 @ 0xa3 == 163
+                STOP                                                                                                                                                   | 0xdbda6655f1da6a4cf9513e02a112051d0152fbe7 @ 0x1b5 == 437
+            SWAP3                                                                                                                                                      | 0x463f235748bc7862deaa04d85b4b16ac8fafef39 @ 0x15d == 349
+             |-> WRITELOCK to ≤4:JUMPI storage 0000000000000000000000000000000000000000000000000000000000000001 contract 0xdefbe144c325d333e09a0db14fcce247aff90ce4
+            SLOAD(addr=124b5edc8b90eb7fb54c77ed659199cede9c439ec76955bb8f349297204f44bf) => value=0000000000000000000000000000000000000000000000000de0b6b3a7640000     | 0x463f235748bc7862deaa04d85b4b16ac8fafef39 @ 0x1a9 == 425
+            SSTORE(addr=124b5edc8b90eb7fb54c77ed659199cede9c439ec76955bb8f349297204f44bf, value=0000000000000000000000000000000000000000000000000de0b6b3a763ffff)      | 0x463f235748bc7862deaa04d85b4b16ac8fafef39 @ 0x1b0 == 432
+            SLOAD(addr=0000000000000000000000000000000000000000000000000000000000000002) => value=000000000000000000000000dbda6655f1da6a4cf9513e02a112051d0152fbe7     | 0x463f235748bc7862deaa04d85b4b16ac8fafef39 @ 0x1b7 == 439
+            CALL(0xdbda6655f1da6a4cf9513e02a112051d0152fbe7 (@ AddMessage(address,uint256,string))
+             | ether=0
+             | gas=586316
+             | input=mem[96:260]{4c2f04a4000000000000000000000000defbe144c325d333e09a0db14fcce247
+             | aff90ce400000000000000000000000000000000000000000000000000000000
+             | 0000000100000000000000000000000000000000000000000000000000000000
+             | 0000006000000000000000000000000000000000000000000000000000000000
+             | 00000007436173684f7574000000000000000000000000000000000000000000
+             | 00000000}
+             | ...)                                                                                                                                        | 0x463f235748bc7862deaa04d85b4b16ac8fafef39 @ 0x2b4 == 692
+                SLOAD(addr=aad097d5f115aab9d2776c7f2ac578f3742aa202bf54701ade461157441d1f29) => value=0000000000000000000000000000000000000000000000000000000000000001 | 0xdbda6655f1da6a4cf9513e02a112051d0152fbe7 @ 0x5de == 1502
+                JUMPI                                                                                                                                                  | 0xdbda6655f1da6a4cf9513e02a112051d0152fbe7 @ 0x5ee == 1518
+                 |-> WRITELOCK 
+                 | to ≤4:JUMPI storage aad097d5f115aab9d2776c7f2ac578f3742aa202bf54701ade461157441d1f29 contract 0xdbda6655f1da6a4cf9513e02a112051d0152fbe7
+                 | to ≤4:JUMPI storage 0000000000000000000000000000000000000000000000000000000000000001 contract 0xdefbe144c325d333e09a0db14fcce247aff90ce4
+                 | to ≤3:JUMPI storage 124b5edc8b90eb7fb54c77ed659199cede9c439ec76955bb8f349297204f44bf contract 0x463f235748bc7862deaa04d85b4b16ac8fafef39
+                STOP                                                                                                                                                   | 0xdbda6655f1da6a4cf9513e02a112051d0152fbe7 @ 0x1d2 == 466
+            ISZERO                                                                                                                                                     | 0x463f235748bc7862deaa04d85b4b16ac8fafef39 @ 0x2b5 == 693
+             |-> WRITELOCK 
+             | to ≤3:JUMPI storage 124b5edc8b90eb7fb54c77ed659199cede9c439ec76955bb8f349297204f44bf contract 0x463f235748bc7862deaa04d85b4b16ac8fafef39
+             | to ≤4:JUMPI storage 0000000000000000000000000000000000000000000000000000000000000001 contract 0xdefbe144c325d333e09a0db14fcce247aff90ce4
+            STOP                                                                                                                                                       | 0x463f235748bc7862deaa04d85b4b16ac8fafef39 @ 0xaf == 175
+        STOP                                                                                                                                                           | 0xdefbe144c325d333e09a0db14fcce247aff90ce4 @ 0x1b5 == 437
+    SLOAD(addr=124b5edc8b90eb7fb54c77ed659199cede9c439ec76955bb8f349297204f44bf) => value=0000000000000000000000000000000000000000000000000de0b6b3a763ffff             | 0x463f235748bc7862deaa04d85b4b16ac8fafef39 @ 0x1a9 == 425
+    SSTORE(addr=124b5edc8b90eb7fb54c77ed659199cede9c439ec76955bb8f349297204f44bf, value=ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff)              | 0x463f235748bc7862deaa04d85b4b16ac8fafef39 @ 0x1b0 == 432
+--------------------------------------------------------------------------------
+
+reported error:
+re-entrancy attack detected (contract: 0x463f235748bc7862DEaA04d85b4B16AC8faFEF39, pc: 0x1b0, sstoreLoc: 0x124b5edc8b90eb7fb54c77ed659199cede9c439ec76955bb8f349297204f44bf, callstackdepth: 2, externalCallDepth: 1, sstoreLockedTo: 3, caller: 0xdefBE144C325d333E09a0DB14FcCe247Aff90ce4, reason: JUMPI)

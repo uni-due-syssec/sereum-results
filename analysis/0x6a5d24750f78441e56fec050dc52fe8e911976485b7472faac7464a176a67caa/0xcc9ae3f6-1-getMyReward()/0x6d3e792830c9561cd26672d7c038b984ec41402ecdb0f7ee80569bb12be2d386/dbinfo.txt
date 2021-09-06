@@ -1,0 +1,17 @@
+blocknum = 1828914
+txhash = 0x6d3e792830c9561cd26672d7c038b984ec41402ecdb0f7ee80569bb12be2d386
+gas = 4712000
+caller = 0xd6266bfe94742c361683969e802c895ababdb4f9
+contract = 0xbb9bc244d798123fde783fcc1c72d3bb8c189413
+codehash = 0x6a5d24750f78441e56fec050dc52fe8e911976485b7472faac7464a176a67caa
+calldata = cc9ae3f6
+functionsig = 3432702966
+returnvalue = 
+calldepth = 147
+externalcalldepth = 146
+pc = 10545
+storageaddress = 0x9a513486afc1734e5d559bf50a1f56cc16dbf8e8e9ec34e3a3b4be3afaa0265c
+writelockdepth = 149
+reason = JUMPI
+ts = None
+
