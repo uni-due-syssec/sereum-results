@@ -70,7 +70,7 @@ However, there are too many contracts and transaction in this dataset to
 perform an in-depth investigation on all of them. As such, for most of the
 contracts there is currently no manual analysis report.
 
-* [analysis/README.md](,/analysis/README.md) explains the rough directory
+* [analysis/README.md](./analysis/README.md) explains the rough directory
   structure of the analysis data.
 * [contracts.yaml](contracts.yaml) is a mapping of smart contract addresses to
   a human readable name and whether the contract has been verified to be
